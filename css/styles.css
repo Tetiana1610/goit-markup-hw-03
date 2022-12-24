@@ -10,6 +10,15 @@
 
   
 }
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: var(--color-background)
@@ -22,7 +31,17 @@ body {
 }
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .header-navigation {
 }
 .logo {
@@ -97,6 +116,9 @@ body {
 
 .hero {
   background: var(--color-dark);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  
 }
 
 .hero-title {
@@ -109,6 +131,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-background);
+  margin-bottom: 48px;
 }
 .hero-btn {
   background: var(--color-iris);
@@ -121,6 +144,7 @@ body {
   color: var(--color-background);
   cursor: pointer;
   border: none;
+
 }
 
 .hero-btn:hover {
@@ -131,8 +155,11 @@ body {
 }
 
 .feature {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .feature-list {
+
 }
 .feature-item {
 }
@@ -144,6 +171,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
+  margin-bottom: 8px;
 }
 .feature-text {
   font-family: "Roboto"; sans-serif;
@@ -167,15 +195,20 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-head);
+  margin-bottom: 72px;
 }
 
 .second-list {
+  padding-bottom: 120px;
+  display: flex;
 }
 
 .second-item {
 }
 .team {
   background: var(--color-grey);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font-family: "Roboto"; sans-serif;
@@ -187,12 +220,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-head);
+  margin-bottom: 72px;
 }
 
 .team-list {
+  display: flex;
+  
 }
 .team-item {
   background: var(--color-background)
+  
 }
 .team-name {
   font-family: "Roboto";
@@ -203,6 +240,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-head);
+  margin-top: 72px;
+  margin-bottom: 8px;
 }
 .team-job {
   font-family: "Roboto"; sans-serif;
@@ -213,11 +252,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  padding-bottom: 32px;
 }
 .footer {
   background: var(--color-dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo {
+  
 }
 .footer-web {
   background: var(--color-dark);
@@ -230,6 +273,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  
 }
 .footer-studio {
   font-family: "Raleway"; sans-serif;
@@ -241,6 +285,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-grey);
+  
 }
 .footer-text {
   font-family: "Roboto"; sans-serif;
@@ -250,6 +295,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
+  margin-top: 16px;
 }
 
 .portfolio {
@@ -268,6 +314,8 @@ body {
 }
 
 .btn-list {
+  padding-top: 71px;
+  padding-bottom: 71px;
 }
 .list {
 }
@@ -300,6 +348,7 @@ body {
 .list {
 }
 .list-img {
+  
 }
 .title-img {
   font-family: "Roboto"; sans-serif;
@@ -308,7 +357,9 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-head)
+  color: var(--color-head);
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .title-img-text {
   font-family: "Roboto"; sans-serif;
@@ -318,4 +369,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  padding-bottom: 32px;
 }
