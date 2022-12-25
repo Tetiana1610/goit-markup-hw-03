@@ -35,6 +35,11 @@ body {
   padding-bottom: 24px;
   padding-left: 156px;
 }
+
+.header-container {
+  display: flex;
+
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -43,6 +48,10 @@ body {
 }
 
 .header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  
 }
 .logo {
   color: var(--color-dark);
@@ -53,16 +62,19 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-web {
   color: var(--color-iris);
+  
 }
 
 
 .header-list {
+  display: flex;
+  gap: 40px;
 }
-.header-item {
-}
+
 
 .header-link.link {
   font-weight: 500;
@@ -80,6 +92,7 @@ body {
 }
 
 .header-list {
+ 
 }
 .header-mail.link {
   font-family: "Roboto"; sans-serif;
@@ -116,8 +129,10 @@ body {
 
 .hero {
   background: var(--color-dark);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 191px;
+  padding-bottom: 185px;
+  padding-right: 485px;
+  padding-left: 461px;
   
 }
 
@@ -132,6 +147,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-background);
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-btn {
   background: var(--color-iris);
@@ -144,6 +160,7 @@ body {
   color: var(--color-background);
   cursor: pointer;
   border: none;
+
 
 }
 
@@ -159,9 +176,12 @@ body {
   padding-bottom: 120px;
 }
 .feature-list {
+  display: flex;
 
 }
 .feature-item {
+  width: 264px;
+  
 }
 .feature-title {
   font-family: "Roboto"; sans-serif;
@@ -181,9 +201,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  
 }
 
 .second {
+  padding-bottom: 120px;
 }
 .second-title {
   font-family: "Roboto"; sans-serif;
@@ -199,16 +221,20 @@ body {
 }
 
 .second-list {
-  padding-bottom: 120px;
   display: flex;
 }
 
 .second-item {
+ 
+  
 }
 .team {
   background: var(--color-grey);
   padding-top: 120px;
   padding-bottom: 120px;
+
+  
+  
 }
 .team-title {
   font-family: "Roboto"; sans-serif;
@@ -240,7 +266,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-head);
-  margin-top: 72px;
+  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-job {
@@ -296,9 +322,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
   margin-top: 16px;
+  max-width: 264px;
 }
 
 .portfolio {
+padding-top: 96px;
+  padding-bottom: 120px;
+ 
 }
 .visually-hidden {
   position: absolute;
@@ -311,11 +341,13 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+  
 }
 
 .btn-list {
-  padding-top: 71px;
-  padding-bottom: 71px;
+  display: flex;
+ 
+ 
 }
 .list {
 }
@@ -344,6 +376,7 @@ body {
 
 
 .service-list {
+  margin-top: 72px;
 }
 .list {
 }
@@ -369,5 +402,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
-  padding-bottom: 32px;
+  margin-bottom: 32px;
+  
 }
