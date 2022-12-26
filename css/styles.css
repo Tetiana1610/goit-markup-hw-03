@@ -136,8 +136,8 @@ body {
   background: var(--color-dark);
   padding-top: 191px;
   padding-bottom: 185px;
-  padding-right: 485px;
-  padding-left: 461px;
+  text-align: center;
+
   
 }
 
@@ -153,6 +153,7 @@ body {
   color: var(--color-background);
   margin-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto;
 }
 .hero-btn {
   width: 169px;
@@ -169,6 +170,7 @@ height: 56px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+margin: 0 auto;
 
 
 
@@ -364,6 +366,7 @@ padding-top: 96px;
 .btn-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
   
  
  
@@ -388,6 +391,7 @@ height: 48px;
 border-radius: 4px;
 display: block;
 margin: 0 auto;
+
 }
 
 .title-btn:hover {
@@ -398,12 +402,23 @@ margin: 0 auto;
   color: var(--color-background);
   background: var(--color-iris);
 }
+.list-img {
 
+}
 
 .service-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #E7E9FC;
+  border-right:  1px solid #E7E9FC;
+  border-left: 1px solid #E7E9FC;
+
+ 
 
   margin-top: 72px;
 }
@@ -412,7 +427,7 @@ margin: 0 auto;
  
 }
 .list-img {
-  border: 1px solid #E7E9FC;
+  
   width: calc((100 - 24px) / 3);
   
 }
@@ -424,7 +439,6 @@ margin: 0 auto;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-head);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .title-img-text {
@@ -435,6 +449,6 @@ margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
-  margin-bottom: 32px;
+  
   
 }
